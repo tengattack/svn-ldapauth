@@ -1,1 +1,1 @@
-*/5 * * * * python /usr/local/bin/sync_ldap_groups_to_svn_authz.py ./sync_ldap_groups_to_svn_authz.py -c /etc/saslauthd.conf -g 'objectClass=organizationalUnit' -i 'sAMAccountName' -z authz -v >> /var/log/cron.log 2>&1
+*/5 * * * * python /usr/local/bin/sync_ldap_groups_to_svn_authz.py -c /etc/saslauthd.conf -g 'objectClass=organizationalUnit' -i 'sAMAccountName' -z authz -v >> /var/log/cron.log 2>&1
